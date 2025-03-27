@@ -1,0 +1,112 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: #0073e6;
+    color: white;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Intro Section */
+#intro {
+    padding: 100px 20px 50px;
+    background: white;
+}
+
+#intro h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.cover-image {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background: #0073e6;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* Features Section */
+#features {
+    padding: 50px 20px;
+    background: #f9f9f9;
+}
+
+.feature {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature img {
+    width: 100px;
+    height: 100px;
+}
+
+/* About Section */
+#about {
+    padding: 50px 20px;
+    background: white;
+}
+
+#about ul {
+    list-style: none;
+    padding: 0;
+}
+
+#about ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+#about ul li a {
+    color: #0073e6;
+    text-decoration: none;
+    font-size: 18px;
+}
